@@ -1,0 +1,16 @@
+0.3 {
+    -First stable and all working release!
+    -Changed quiz system, thoug deactivated acces beacouse the point system is broken!
+    -Added clock, pasword generator, guess the number and help command
+    -Updated calculator. Now supports multiplication and division.
+    -Updated converter. Now supports float conversion.
+    -Fixed the readme, it was just bolierplate
+    -Added contributors.txt to support all contributors
+    -Added a folder to contain the src and the two txt files!
+}
+
+0.2 {
+    -Added countdown, quiz (broken), calculator, converter.
+    -Added general selecting sytem
+    -First release!
+}
