@@ -1,0 +1,5 @@
+0.2 {
+    -Added countdown, quiz (broken), calculator, converter.
+    -Added general selecting sytem
+    -First release!
+}
