@@ -8,7 +8,7 @@ print("Retrivng memory info...")
 time.sleep(2.3)
 __copyrigth__ = "©bee_Michi 2021-2022"
 __author__ = "bee_Michi"
-__version__ = "0.2"
+__version__ = "0.3"
 print("Welcome to BOTW or best over time waster")
 print("Type help to get a list abot all available utilities")
 print("Copyrigth can be acces with the copyrigth command")
