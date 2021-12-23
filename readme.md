@@ -44,6 +44,10 @@ Open an issue and describe the problem! Thoug bugs are rear and few, we wuold ap
 
 If you want to learn about the new features of the softwere, go to changes.txt.
 
+## Releases:
+
+Ther is not a relese time, but betas and test are relesed a day here and a day there!
+
 ## Creator:
 
 This project was created by:
