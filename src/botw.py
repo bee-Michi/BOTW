@@ -38,7 +38,9 @@ while True:
     elif BOTW_SELECT == "countdown":
         countdownS = True
         break
-    #!Quiz is broken, therphore no acces unless modifictation!
+    elif BOTW_SELECT == "quiz":
+        quiz = True
+        break
     elif BOTW_SELECT == "calculator":
         calculator = True
         break
