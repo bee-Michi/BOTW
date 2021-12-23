@@ -8,7 +8,7 @@ print("Retrivng memory info...")
 time.sleep(2.3)
 __copyrigth__ = "©bee_Michi 2021-2022"
 __author__ = "bee_Michi"
-__version__ = "0.3"
+__version__ = "You are currently in version 1.0! Check if a new update has been relesd!"
 print("Welcome to BOTW or best over time waster")
 print("Type help to get a list abot all available utilities")
 print("Copyrigth can be acces with the copyrigth command")
@@ -23,7 +23,9 @@ converter = False
 gtn = False
 clock = False
 paswwordG = False
-available = ["countdown", "quiz", "calculator", "converter", "guess the number", "clock", "password generator"]
+liscenceCompiler = True
+available = ["Countdown", "Quiz", "Calculator", "Converter", "Guess the number", "Clock", "Password generator", "Liscence compiler!"]
+commands = ["Help: This command! Displays all commands", "Copyrigth: Get information about copyrigth", "Liscece: Gives info about the liscence", "Author: Tells you authors and cotntributors of the project!", "Version: Reports on the current version of the program!"]
 while True:
     if BOTW_SELECT == "copyrigth":
         print(__copyrigth__)
@@ -44,8 +46,9 @@ while True:
         converter = True
         break
     elif BOTW_SELECT == "help":
-        for i in available:
+        for i in commands:
             print(i)
+        print("Are you looking for the available utilities?")
         break
     elif BOTW_SELECT == "guess the number":
         gtn = True
@@ -240,3 +243,32 @@ elif paswwordG == True:
         gen_password = gen_password + str(i)
     print("Herse your password:")
     print(gen_password)
+elif liscenceCompiler == True:
+    print("Welcome to mit liscence compiler!")
+    print("Input the year")
+    year = int(input())
+    print("Input the copyrigth owner!")
+    copy_owner = input()
+    print("Input the name of the softwere!")
+    softwere_name = input()
+    year_str = str(year)
+    print(f"Copyright (c) {year_str} {copy_owner}")
+    print("Permission is hereby granted, free of charge, to any person")
+    print("obtaining a copy of this software and associated documentation")
+    print(f"files for {softwere_name}, to deal in the Software without")
+    print("restriction, including without limitation the rights to use,")
+    print("copy, modify, merge, publish, distribute, sublicense, and/or sell")
+    print("copies of the Software, and to permit persons to whom the")
+    print("Software is furnished to do so, subject to the following conditions:")
+    print("")
+    print("The above copyright notice and this permission notice shall be")
+    print("included in all copies or substantial portions of the Software.")
+    print("")
+    print("THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND,")
+    print("EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES")
+    print("OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND")
+    print("NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT")
+    print("HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,")
+    print("WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING")
+    print("FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR")
+    print("OTHER DEALINGS IN THE SOFTWARE.")
