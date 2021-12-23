@@ -6,6 +6,9 @@
     -Added author command, reports on the author!
     -Betterd the help command! Now inculdes dedicated spaces for commands and utilites/games!
     -Fixed old reportings of documents!
+    -Updated Version, is now more descriptive!
+    -Updated readme!
+    -Adededd converter pro!
 }
 0.3 {
     -First stable and all working release!
