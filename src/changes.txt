@@ -1,3 +1,12 @@
+1.0 {
+    -First stable and not beta and compleatly working without cuts release!
+    -Merged my mit liscence compiler, now its just an archive!
+    -Fixed (finally) quiz!
+    -Added liscence command, let's you see the liscence
+    -Added author command, reports on the author!
+    -Betterd the help command! Now inculdes dedicated spaces for commands and utilites/games!
+    -Fixed old reportings of documents!
+}
 0.3 {
     -First stable and all working release!
     -Changed quiz system, thoug deactivated acces beacouse the point system is broken!
@@ -5,8 +14,8 @@
     -Updated calculator. Now supports multiplication and division.
     -Updated converter. Now supports float conversion.
     -Fixed the readme, it was just bolierplate
-    -Added contributors.txt to support all contributors
-    -Added a folder to contain the src and the two txt files!
+    -Added contributors.txt to report all contributors
+    -Added a folder to contain the source! and the two txt files!
 }
 
 0.2 {
