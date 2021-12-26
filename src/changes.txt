@@ -1,3 +1,9 @@
+v 1.0.1 {
+    -Updte Version, now there are two variables, but the commadnd responds with one.
+    -Merged liscence with copyrigth command
+    -Added better description to the utilities command, and made it more readable!
+}
+
 1.0 {
     -First stable and not beta and compleatly working without cuts release!
     -Merged my mit liscence compiler, now its just an archive!
