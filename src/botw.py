@@ -1,6 +1,5 @@
 import time, sys, random, math
 from datetime import datetime
-from colorama import init
 print("Loadng recorces...")
 time.sleep(1)
 print("Conneccting to servers...")
