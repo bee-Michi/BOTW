@@ -7,9 +7,10 @@ print("Conneccting to servers...")
 time.sleep(1)
 print("Retrivng memory info...")
 time.sleep(2.3)
-__copyrigth__ = "©bee_Michi 2021-2022"
+__copyrigth__ = "©bee_Michi 2021-2022. This softwere is liscenced under the MIT liscence, more information in the liscenece file."
 __author__ = "bee_Michi"
-__version__ = "You are currently in version 1.0! Check if a new update has been relesd!"
+__version__= "1.1"
+version = "You are currently in version 1.1! Check if a new update has been relesd on the github page!"
 print("Welcome to BOTW or best over time waster")
 print("Type help to get a list abot all available utilities")
 print("Copyrigth can be acces with the copyrigth command")
@@ -25,14 +26,22 @@ gtn = False
 clock = False
 paswwordG = False
 liscenceCompiler = True
-available = ["Countdown", "Quiz", "Calculator", "Converter", "Guess the number", "Clock", "Password generator", "Liscence compiler!"]
+available = {"Countdown: A simple countdown", 
+            "Quiz: How much do you know, test your skills in quiz", 
+            "Calculator: Need a calculator, we gotha fam", 
+            "Converter: convert an int/float to string", 
+            "Guess the number: Try to guess the super ai tottaly not randomly generated number", 
+            "Clock: Gets the current time", 
+            "Password generator: Generate secure passwords", 
+            "Liscence compiler:  Easaly compile liscences"
+            }
 commands = ["Help: This command! Displays all commands", "Copyrigth: Get information about copyrigth", "Liscece: Gives info about the liscence", "Author: Tells you authors and cotntributors of the project!", "Version: Reports on the current version of the program!"]
 while True:
     if BOTW_SELECT == "copyrigth":
         print(__copyrigth__)
         break
     elif BOTW_SELECT == "version":
-        print(__version__)
+        print(version)
         break
     elif BOTW_SELECT == "exit":
         sys.exit()
