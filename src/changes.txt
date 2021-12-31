@@ -1,0 +1,85 @@
+v 2.0 {
+    Added:
+    -Added lots of commments, and tried to make the code the most readelbe
+    -Added bugs.txt to report all uknown and not fixed bugs!
+    -Added some little cuts and bits to spice up th UX.
+    -Added install.md to proceed with the installation.
+    -Added .sh files for installing on linux
+    -Added a unix executable to run on MacOS/OSX
+    Merged:
+    -Merged my old bot form another account called utity.py. Now includes a full cpu prank, rock paper sciccorcs and a random number generator.
+    Changed/Updated:
+    -Changed radiclly the CLI look. Tried to cut out as many multple prints to join in more beatiful inputs. Also added emojis!
+    -Changed how the help system works. Now help displays utilities and commands displays commands. Also changed how they are loaded, using functions instead of directly inplementing it in the if function.
+    -Changed how the selection system works in code, now it's at the bottom, and it's activated with functions at the top.
+    -Changed the loadings, so they aren't heavy or annnoying and tried to cut them as much.
+    -Raddicly changed readme, now includes an FAQ for questions, emojis and much more!
+    -Updated converter. Now supports str to int and str to float, and with that had to change how the conversion works!
+    -Updated pasword generator. Now supports genrating multple paswords
+    -Updated clock, now there's no need for dateTime
+    -Updated rock papaer sciccorcs. Now the thanks messge is distriuted under a varible. Also added f strings for the result instead of old additors!
+    -Updated random number generator. Now it's more spicy!
+    Fixed:
+    -Fixed quiz whitch, for an error on my part, only worked in v 1.0.
+    -Fixed typos in converter
+    -Fixed irregularities and other stuff in changes.txt (this document)
+    Deleated:
+    -Deleated contributors.txt, witch now has a section in readme.md!
+    Extra info:
+    -Huge bugfixes and testing to make the expirence as seemless as possible!!!
+}
+v 1.1.1 {
+    Added:
+    -Nothing
+    Updated:
+    -Nothing
+    Fixed:
+    -Critical bug with selecting system. 
+}
+v 1.1 {
+    Added:
+    -Added better description to the utilities command, and made it more readable!
+    Merged:
+    -Merged liscence with copyrigth command
+    Updated:
+    -Updte Version, now there are two variables, but the commadnd responds with one.
+}
+
+1.0 {
+    Added:
+    -Added liscence and author command, let's you see the liscence and the author respectevly!
+    -Adededd converter pro!
+    Merged:
+    -Merged my mit liscence compiler, now its just an archive!
+    Updated:
+    -Updated the help command! Now inculdes dedicated spaces for commands and utilites/games!
+    -Updated Version, is now more descriptive!
+    -Updated readme!
+    Fixed:
+    -Fixed (finally) quiz!
+    -Fixed old reportings of documents!
+    Extra info:
+    -First stable and not beta and compleatly working without cuts release!
+}
+0.3 {
+    Added:
+        -Added clock, pasword generator, guess the number and help command
+        -Added contributors.txt to report all contributors
+        -Added a folder to contain the source and the two .txt files!
+    Changed/Updated:
+        -Changed quiz system, thoug deactivated acces beacouse the point system is broken!
+        -Updated calculator. Now supports multiplication and division.
+        -Updated converter. Now supports float conversion.
+    Fixes:
+        -Fixed the readme, it was just bolierplate
+    Extra info:
+        -First stable and all working release!
+}
+
+0.2 {
+    Added:
+    -Added countdown, quiz (broken), calculator, converter.
+    -Added general selecting sytem.
+    Extra info:
+    -First release!
+}
