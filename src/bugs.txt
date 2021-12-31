@@ -1,0 +1,6 @@
+v 2.0 {
+    Converter: In string to float, do not inster a whole number.
+    Converter: In string ro int, do not inster a decimal number.
+    Countdown: Strings are not accepted!
+    Calculator: Int in the two number inputs are not supported!!
+}
